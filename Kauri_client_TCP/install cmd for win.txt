@@ -1,0 +1,5 @@
+g++ -c E:\Documents\Kauri_client_TCP\asn1_solver.cpp
+g++ -c E:\Documents\Kauri_client_TCP\client_unit_cl.cpp
+g++ -c E:\Documents\Kauri_client_TCP\client_unit_method_win.cpp
+g++ -c E:\Documents\Kauri_client_TCP\main.cpp
+g++ -o C:\ResultGCC\Kauri_task_server\Kauri_task_client main.o  server_unit_method_win.o server_unit_cl.o my_semaphore.o asn1_resolver.o -static -lwinpthread -lws2_32

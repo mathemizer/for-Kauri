@@ -1,0 +1,7 @@
+cd /d H:\Qt\Tools\mingw730_64\opt\bin
+g++ -c C:\Users\Reimeno\Documents\Kauri_task_qmake\asn1_resolver.cpp
+g++ -c C:\Users\Reimeno\Documents\Kauri_task_qmake\my_semaphore.cpp
+g++ -c C:\Users\Reimeno\Documents\Kauri_task_qmake\server_unit_cl.cpp
+g++ -c C:\Users\Reimeno\Documents\Kauri_task_qmake\server_unit_method_win.cpp
+g++ -c C:\Users\Reimeno\Documents\Kauri_task_qmake\main.cpp
+g++ -o C:\ResultGCC\Kauri_task_server\Kauri_task_server -static -lwinpthread -lws2_32 
